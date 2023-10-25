@@ -95,7 +95,8 @@ class Gui:
         self.__draw_window(window)
 
         if self.__game.is_game_won:
-            text = pygame.font.SysFont("Arial", 50).render("You Won!", True, Gui.BLACK)
+            time = self.__game.time
+            text = pygame.font.SysFont("Arial", 50).render(f'You Won! Time: {time} seconds', True, Gui.BLACK)
         else:
             text = pygame.font.SysFont("Arial", 50).render("Game Over!", True, Gui.BLACK)
 

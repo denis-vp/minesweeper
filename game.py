@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from board.board import Board
 from board.cell import Cell
 
@@ -14,6 +16,8 @@ class Game:
 
         self.__is_game_won = False
         self.__is_game_lost = False
+
+        self.__start_time = datetime.now()
 
     def __reveal_one_safe_cell(self):
         middle_row = self.__board.number_of_rows // 2
@@ -63,6 +67,14 @@ class Game:
 
     def get_board_str(self, cheat: bool) -> str:
         return self.__board.get_str(cheat)
+
+    @property
+    def time(self) -> int:
+        current_time = datetime.now()
+        seconds = (current_time.hour - self.__start_time.hour) * 3600 + \
+                    (current_time.minute - self.__start_time.minute) * 60 + \
+                    (current_time.second - self.__start_time.second)
+        return seconds
 
     # ----------------------------------------- #
 
