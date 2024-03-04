@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![pygame](https://img.shields.io/badge/pygame-2.0%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-MIT-purple)
 
 Minesweeper is a classic puzzle game where your goal is to clear a grid of hidden mines without triggering any of them. This Python project brings the timeless Minesweeper game to life with both a CUI and a console interface built using pygame. Whether you prefer a traditional console interface or a modern graphical experience, this game has you covered.
 
