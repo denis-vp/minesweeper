@@ -13,6 +13,12 @@ Minesweeper is a classic puzzle game where your goal is to clear a grid of hidde
 - **Customizable Grids**: Choose from various grid sizes and mine density levels.
 - **Timer**: Challenge yourself by tracking how fast you can complete the game.
 
+## Gameplay
+
+![Minesweeper Game](assets/gameplay.png)
+
+![Minesweeper Game](assets/loss.png)
+
 ## License
 
 This Minesweeper project is licensed under the MIT License. You are free to use, modify, and distribute this software in accordance with the terms specified in the [LICENSE](LICENSE) file.
